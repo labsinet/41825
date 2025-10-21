@@ -98,7 +98,7 @@ public:
         model->setHeaderData(0, Qt::Horizontal, "Date");
         model->setHeaderData(1, Qt::Horizontal, "Reading");
         model->setHeaderData(2, Qt::Horizontal, "Subscriber ID");
-        model->setHeaderData(3, Qt::Horizontal, "Surname");
+        model->setHeaderData(3, Qt::Horizontal, "Fullname");
         model->setHeaderData(4, Qt::Horizontal, "Email");
 
         tableView->setModel(model);
